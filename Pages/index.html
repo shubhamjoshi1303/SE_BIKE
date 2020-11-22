@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MY V Bike rental</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Bike rental" content="Presentation website">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--<iframe src="http://free.timeanddate.com/clock/i5fpvar2/n1446/tct/pct/ftb/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="90" height="34" allowTransparency="true"></iframe>-->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+			<script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+			<![endif]-->
+    <script src="processing.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // convenience function to get the id attribute of generated sketch html element
+        function getProcessingSketchId() { return 'sketch_grid'; }
+    </script>
+</head>
+
+
+
+<body>
+    <header>
+
+        <div id="content">
+            <canvas id="sketch_grid" data-processing-sources="Sketch_for_Site.pde"></canvas>
+        </div>
+
+        <ul class="logoName" id="Name">
+            <img src="../imForSite/logo2.png"   alt="MY V Bike Rental logo">
+        </ul>
+
+        <a name="top"></a>
+
+
+        <ul class="topnav" id="myTopnav">
+            <li><a href="" class="closebtn">&times;</a></li>
+            <li><a class="active" href="index.html" id="home"><strong>Home</strong></a></li>
+            <li><a href="price.html" id="price"><strong>Prices</strong></a></li>
+            <li><a href="reservation.html" id="reservation"><strong>Rent</strong></a></li>
+            <li><a href="contact.html" id="contacts"><strong>Contact</strong></a></li>
+        </ul>
+
+        <a href="" class="toggle">
+            <img src="../imForSite/glyphicons-114-justify.png" alt="glyphicon menu">
+        </a>
+
+    </header>
+
+
+    <section class="main">
+        <div class="col-sm-12" id="slide">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item">
+                        <img src="../imForSite/advertis.jpg" alt="Road to mountains">
+                    </div>
+
+                    <div class="item active">
+                        <img src="../imForSite/road.jpg" alt="Road by the ocean">
+                    </div>
+
+                    <div class="item">
+                        <img src="../imForSite/Road_to_mountains.jpg" alt="Road to mountains">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!--<img src="imForSite/road.jpg" style = "width:100%">-->
+
+        <div class="container-fluid text-center">
+            <div class="col-sm-2">
+                <a href="#top" class="goUpButton">
+                    <p><span class="glyphicon glyphicon-menu-up"></span> </p>
+                    <p><span class="glyphicon glyphicon-menu-up"></span> </p>
+                </a>
+            </div>
+
+            <div class="col-sm-8">
+
+                <h4>
+                    <p>We are here to let people enjoy the freedom of bike riding and at the same time delegate all
+                        expenses
+                        for bike service to our company. You just get pure emotions! We take care of the rest!</p>
+
+                    <p>Everyone has own reasons to ride a bike: lack of adrenalin in life, feeling of freedom, passion
+                        for speed.
+                        But all of you have one common feature: feeling of happiness and pure satisfaction when riding a
+                        bike! no one
+                        can take it from you! So which bike would you choose?</p>
+
+                    <p>If you like long and tiring journeys we are able to advise which bike to take.
+                        We have a big amount of motor bikes which provide comfort at long distance rides.
+                    <p>Those of you who prefer fast and smooth ride will also find good deals here. No more need
+                        to wait in jams and waste your time. Compact and low-cc bikes will work for you at best!</p>
+                    <p>We encourage you to check out our offer!</p>
+                </h4>
+
+
+                <div class="row animation">
+                    <ul class="animCircles">
+                        <li id="animItem">
+                            <div class="GaugeMeter" id="PreviewGaugeMeter_4" data-percent="56" data-used="50"
+                                data-total="50" data-append=null data-size="150" data-theme="LightBlue-DarkBlue"
+                                data-back=null data-animate_gauge_colors=null data-animate_text_colors=null
+                                data-width="11" data-label="customers" data-label_color="#333333" data-stripe=null>
+                            </div>
+                        </li>
+
+                        <li id="animItem">
+                            <div class="GaugeMeter" id="PreviewGaugeMeter_4" data-percent="74" data-used="74"
+                                data-total="74" data-prepend=null data-append=null data-size="150"
+                                data-theme="Red-Green" data-back=null data-animate_gauge_colors="1"
+                                data-animate_text_colors=null data-width="11" data-style="Arch" data-label="rents"
+                                data-label_color="#333333" data-stripe=null></div>
+                        </li>
+
+                        <li id="animItem">
+                            <div class="GaugeMeter" id="PreviewGaugeMeter_4" data-percent="16" data-used="16"
+                                data-total="19" data-prepend=null data-append=null data-size="150"
+                                data-theme="LightBlue-DarkBlue" data-back=null data-animate_gauge_colors="1"
+                                data-animate_text_colors=null data-width="11" data-label="bikes"
+                                data-label_color="#333333" data-stripe=null></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row orderBtn">
+
+                    <form>
+                        <input class="ourOfferBtn" type="button" value="Our offer"
+                            onclick="window.location.href='price.html'" />
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid" id="foot">
+
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8 about">
+            <div class="col-sm-4" id="siteMap">
+                <h4><strong>Site map</strong></h4>
+                <h5><a href="index.html">Home</a></h5>
+                <h5><a href="price.html">Price list</a></h5>
+                <h5><a href="reservation.php">Book a bike</a></h5>
+                <h5><a href="contact.php">Contact</a></h5>
+            </div>
+            <div class="col-sm-4 " id="brands">
+                <h4><strong>Partners</strong></h4>
+                <h5><a id="Honda" href="http://powersports.honda.com/" target="_blank">Honda</a></h5>
+                <h5><a id="Kawasaki" href="https://www.kawasaki.com/" target="_blank">Kawasaki</a></h5>
+                <h5><a id="Suzuki" href="http://www.suzuki-moto.com/" target="_blank">Suzuki</a></h5>
+                <h5><a id="Yamaha" href="https://www.yamahamotorsports.com/motorcycle" target="_blank">Yamaha</a></h5>
+            </div>
+
+            <div class="col-sm-4" id="contactInfo">
+                <h4><strong>MY V Bike Rental</strong></h4>
+                <h5><strong>Address:</strong> 20-250, I.Daszynskiego, 3a,</h5>
+                <h5>Lublin, Poland</h5>
+                <h5><strong>Business Hours:</strong> 10am-7pm Mon-Sat</h5>
+                <h5>12pm-6pm Sun </h5>
+                <h5><strong>E-mail:</strong> myvbikes@gmail.com</h5>
+                <h5><strong>Tel:</strong> +12345678</h5>
+
+                <!-- <div id="map" style="width:350px;height:300px;">MY V Bike</div>-->
+            </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+
+        <div id="socialRow">
+            <ul id="socialMedia">
+                <li id="facebook">
+                    <a href="url">
+                        <img src="../imForSite/facebook.png" alt="facebook logo">
+                    </a>
+                </li>
+                <li id="google"><a href="url">
+                        <img src="../imForSite/google-logo.png" alt="google logo">
+                    </a>
+                </li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/maksymsavin/">
+                        <img src="../imForSite/linkedin-logo.png" alt="linkedin logo">
+                    </a>
+                </li>
+                <li id="skype"><a href="url">
+                        <img src="../imForSite/skype-logo.png" alt="skype logo">
+                    </a>
+                </li>
+                <li id="whatsapp"><a href="url">
+                        <img src="../imForSite/whatsapp-logo.png" alt="whatsapp logo">
+                    </a>
+                </li>
+                <li id="twitter"><a href="url">
+                        <img src="../imForSite/twitter-logo.png" alt="twitter logo">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div id="rights">
+            <h5>MY V Bike Rental &copy; 2016</h5>
+            <a href="http://pydega.com/">
+                <h5>Press this link to contact me.</h5>
+            </a>
+        </div>
+    </footer>
+
+
+    <script type='text/javascript' src='../javacript/animationIndex.js'></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script>
+</body>
+
+</html>
